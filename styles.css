@@ -24,7 +24,68 @@ body{
     position: relative;
     height: 20rem;
     width: 23%;
-    background-color: #000000;
+    background-color: #ee6060;
+    /* animation: colour-change 25s ease-in infinite; */
+}
+#animate{
+
+    animation: animate 2s ease-in infinite;
+}
+@keyframes animate{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+@keyframes colour-change{
+    0%{
+       background-color: #ee6060; 
+    }
+    10%{
+        background-color: #eec860; 
+
+    }
+    20%{
+        background-color: #a5ee60; 
+        
+    }
+    30%{
+        background-color: #60eeca; 
+
+    }
+    40%{
+        background-color: #6081ee; 
+
+    }
+    50%{
+        background-color: #7560ee; 
+
+    }
+    60%{
+        background-color: #c660ee; 
+
+    }
+    70%{
+        background-color: #ee60bf; 
+
+    }
+    80%{
+        background-color: #ee6073; 
+
+    }
+    90%{
+        background-color: #f3f3f3; 
+
+    }
+    100%{
+        background-color: #ee6060; 
+
+    }
 }
 @media screen and (max-width:1200px){
     .cards{
